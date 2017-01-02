@@ -5,4 +5,4 @@ MSG=`cat UPT`
 echo -n Uptime:
 echo "$MSG"
 
-./OmegaPushover.sh "$MSG"
+/home/OmegaPushover.sh "$MSG"

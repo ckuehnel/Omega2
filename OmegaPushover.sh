@@ -10,8 +10,8 @@ else
   echo [$msg] will be pushed to mobile device
 
   curl -s \
-    --form-string "token=aifqr........pjech3" \ # change to your data
-    --form-string "user=uojfa.........jngg93" \ # change to your data
+    --form-string "token=aifqrmauecdjd7gwbj21mujnpjech3" \
+    --form-string "user=uojfahpyozqtj6gbgccg61e5jngg93" \
     --form-string "message=$msg" \
     https://api.pushover.net/1/messages.json
     echo
