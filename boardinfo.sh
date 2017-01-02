@@ -1,24 +1,21 @@
 #!/bin/sh
 
-echo "============================="
-echo "Arduino Yun Board Information"
-echo "============================="
+echo "==============================="
+echo "Onion Omega2+ Board Information"
+echo "==============================="
 echo
-echo "--- CPU Info ----------------"
+echo "--- CPU Info ------------------"
 cat /proc/cpuinfo
 echo
-echo "---Linux Version ------------"
+echo "---Linux Version --------------"
 uname -a
 echo
-echo "--- Uptime ------------------"
+echo "--- Uptime --------------------"
 uptime
 echo
-echo "--- Memory Usage ------------"
+echo "--- Memory Usage --------------"
 free -m
 df -h
 echo
-echo "--- USB ---------------------"
-lsusb -tv
-
  
  
