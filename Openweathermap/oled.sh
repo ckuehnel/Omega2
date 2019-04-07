@@ -15,7 +15,6 @@ t=`date +%H:%M`
 oled-exp write $d 
 oled-exp cursor 0,11 write $t
 
-
 oled-exp cursor 2,0 write "Temp:"
 read T < /home/TEMP
 oled-exp cursor 2,7 write $T

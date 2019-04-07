@@ -31,5 +31,5 @@ f.write("{:.1f}".format(temp) + '\r\n')
 f.close()
 
 f = open("/home/HUMI","w")
-f.write(str(rel_hum)[:-1] + '\r\n')
+f.write(str(rel_hum) + '\r\n')
 f.close() 
