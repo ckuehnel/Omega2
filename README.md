@@ -2,8 +2,8 @@
 
 Some program samples for Onion's Omega2+
 
-The folder wunderground 
+The folders contains code snippets from different projects:
 
-The folder Openweathermap contains programs samples querying Openweathermap for weather information from their network and local sensors
-
-In the folder Watertemperature there are code snippets for measuring water temperature by a waterproof DS18B20 sensor. 
+* Wunderground: Code snippets querying Wunderground network of weather stations 
+* Openweathermap: Code snippets querying Openweathermap for weather information from their network and local sensors
+* Water Temperature: Code snippets for measuring water temperature by a battery-powered waterproof DS18B20 sensor 
